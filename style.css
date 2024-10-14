@@ -1,3 +1,46 @@
-body{
-    color: blue;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.titolo {
+    font-size: 36px;
+    text-align: center;
+    color: firebrick;
+    margin-bottom: 30px;
+}
+
+.paragrafo {
+    margin: 20px 0;
+}
+
+.paragrafo h2 {
+    font-size: 28px;
+    color: slateblue;
+}
+
+.paragrafo p {
+    font-size: 18px;
+    margin: 10px 0 20px 0;
+}
+
+.paragrafo img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.paragrafo img:hover {
+    transform: scale(1.05);
 }
